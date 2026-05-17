@@ -563,11 +563,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="10cf9236-80d1-4596-aa81-3766fc491c98">
-    <name>ФормаЭлемента</name>
+  <forms uuid="b491bbb1-49c2-4e60-875b-c18e7f11659a">
+    <name>ФормаВыбора</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -590,11 +590,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="b491bbb1-49c2-4e60-875b-c18e7f11659a">
-    <name>ФормаВыбора</name>
+  <forms uuid="10cf9236-80d1-4596-aa81-3766fc491c98">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

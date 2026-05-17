@@ -168,62 +168,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9b7f1ecd-340e-4830-9821-f9333aa7eb7f">
-    <name>Подразделение</name>
-    <synonym>
-      <key>ru</key>
-      <value>Подразделение</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.СтруктурныеПодразделения</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Наименование структурного подразделения, в котором работает сотрудник</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="1996f24d-c963-4ae2-b658-d35dfcf969d1">
-    <name>Степень</name>
-    <synonym>
-      <key>ru</key>
-      <value>Степень</value>
-    </synonym>
-    <type>
-      <types>EnumRef.УченыеСтепени</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Научная или ученая степени присвоенный работнику</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="19421bf5-a040-47a3-910f-bf9d3a90e9a5">
-    <name>СтепеньСокращенно</name>
-    <synonym>
-      <key>ru</key>
-      <value>Степень сокращенно</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>20</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="c633894e-3d06-4d2c-9550-a7770cca7d0e">
     <name>Звание</name>
     <synonym>
@@ -310,6 +254,80 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="9b7f1ecd-340e-4830-9821-f9333aa7eb7f">
+    <name>Подразделение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подразделение</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеПодразделения</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Наименование структурного подразделения, в котором работает сотрудник</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1996f24d-c963-4ae2-b658-d35dfcf969d1">
+    <name>Степень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УченыеСтепени</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Научная или ученая степени присвоенный работнику</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="19421bf5-a040-47a3-910f-bf9d3a90e9a5">
+    <name>СтепеньСокращенно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень сокращенно</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>20</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="9b0aca96-347a-429b-bdda-30b01669da73">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1bd564ed-a76d-41a4-8e64-9998e304bbbe">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="3641720c-760d-44a8-9399-ccda9a2e0206">
     <name>ФормаСписка</name>
     <synonym>
@@ -324,24 +342,6 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="1bd564ed-a76d-41a4-8e64-9998e304bbbe">
-    <name>ФормаГруппы</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма группы</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="9b0aca96-347a-429b-bdda-30b01669da73">
-    <name>ФормаВыбора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

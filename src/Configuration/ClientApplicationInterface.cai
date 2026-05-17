@@ -4,7 +4,7 @@
     <panels id="803c3ee6-069b-402f-bd51-a9c66e0b0a48" name="SectionPanel" displayType="PictureAndText"/>
     <panels id="65e96fcd-bda8-405a-9968-506a6d8a38c5" name="OpenedPanel"/>
   </left>
+  <left xsi:type="cai:CaiPanel" id="d90ebc40-8468-4198-8d95-d1bd51a3ac6a" name="FunctionsPanel"/>
   <unset id="13322b22-3960-4d68-93a6-fe2dd7f28ca3" name="FavoritePanel"/>
   <unset id="c933ac92-92cd-459d-81cc-e0c8a83ced99" name="HistoryPanel"/>
-  <unset id="b2735bd3-d822-4430-ba59-c9e869693b24" name="FunctionsPanel"/>
 </cai:ClientApplicationInterface>

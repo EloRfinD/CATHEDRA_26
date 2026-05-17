@@ -27,14 +27,14 @@
   <defaultListForm>Document.ОрганизационныйПриказНаКурс.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="0b73e2b1-6d6c-49a8-802b-379881b23f59">
-    <name>Программа</name>
+  <attributes uuid="991d9bcf-ac52-4bb9-9df5-5ddf7f260e12">
+    <name>Подписант</name>
     <synonym>
       <key>ru</key>
-      <value>Программа</value>
+      <value>Подписант</value>
     </synonym>
     <type>
-      <types>CatalogRef.УчебныеПрограммы</types>
+      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -60,11 +60,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="991d9bcf-ac52-4bb9-9df5-5ddf7f260e12">
-    <name>Подписант</name>
+  <attributes uuid="0b73e2b1-6d6c-49a8-802b-379881b23f59">
+    <name>Программа</name>
     <synonym>
       <key>ru</key>
-      <value>Подписант</value>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="386c2e9d-dd8e-4957-8d22-5b82d50135e3">
+    <name>ПроектПриказаВносит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект приказа вносит</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -93,11 +108,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="386c2e9d-dd8e-4957-8d22-5b82d50135e3">
-    <name>ПроектПриказаВносит</name>
+  <attributes uuid="1d26a718-93ed-4b32-967d-ca6a78ed5856">
+    <name>Согласовано1</name>
     <synonym>
       <key>ru</key>
-      <value>Проект приказа вносит</value>
+      <value>Согласовано1</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -126,11 +141,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="1d26a718-93ed-4b32-967d-ca6a78ed5856">
-    <name>Согласовано1</name>
+  <attributes uuid="bfe6f0cf-d92e-450f-b560-1b2f22f89ca7">
+    <name>Согласовано2</name>
     <synonym>
       <key>ru</key>
-      <value>Согласовано1</value>
+      <value>Согласовано2</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -152,21 +167,6 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="bfe6f0cf-d92e-450f-b560-1b2f22f89ca7">
-    <name>Согласовано2</name>
-    <synonym>
-      <key>ru</key>
-      <value>Согласовано2</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

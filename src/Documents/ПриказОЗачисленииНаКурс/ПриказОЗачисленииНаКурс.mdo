@@ -76,21 +76,6 @@
   <defaultListForm>Document.ПриказОЗачисленииНаКурс.Form.ФормаСписка</defaultListForm>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
-  <attributes uuid="3fceb1c7-140f-4d0e-a58a-868002287a7e">
-    <name>Программа</name>
-    <synonym>
-      <key>ru</key>
-      <value>Программа</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.УчебныеПрограммы</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f78ebbbf-e9a2-45ca-af9f-cd176428c3cf">
     <name>ДатаОргПриказа</name>
     <synonym>
@@ -127,6 +112,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="ce7560e7-800f-43eb-bdb3-8ade3d6180a3">
+    <name>Подписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="0013d2e5-abe0-4887-9e44-b6426d2ed2b3">
     <name>ПодписантДолжность</name>
     <synonym>
@@ -145,11 +145,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ce7560e7-800f-43eb-bdb3-8ade3d6180a3">
-    <name>Подписант</name>
+  <attributes uuid="3fceb1c7-140f-4d0e-a58a-868002287a7e">
+    <name>Программа</name>
     <synonym>
       <key>ru</key>
-      <value>Подписант</value>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="604f3744-b1ce-421f-aad6-0b47e6efb47d">
+    <name>ПроектПриказаВносит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект приказа вносит</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -178,11 +193,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="604f3744-b1ce-421f-aad6-0b47e6efb47d">
-    <name>ПроектПриказаВносит</name>
+  <attributes uuid="6ed25f31-af67-4d87-a5e0-17cd1a92382f">
+    <name>Согласовано1</name>
     <synonym>
       <key>ru</key>
-      <value>Проект приказа вносит</value>
+      <value>Согласовано1</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -211,11 +226,11 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="6ed25f31-af67-4d87-a5e0-17cd1a92382f">
-    <name>Согласовано1</name>
+  <attributes uuid="9b46b152-5328-4faa-82b9-4f6cc94fb0f4">
+    <name>Согласовано2</name>
     <synonym>
       <key>ru</key>
-      <value>Согласовано1</value>
+      <value>Согласовано2</value>
     </synonym>
     <type>
       <types>CatalogRef.Сотрудники</types>
@@ -237,21 +252,6 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="9b46b152-5328-4faa-82b9-4f6cc94fb0f4">
-    <name>Согласовано2</name>
-    <synonym>
-      <key>ru</key>
-      <value>Согласовано2</value>
-    </synonym>
-    <type>
-      <types>CatalogRef.Сотрудники</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>

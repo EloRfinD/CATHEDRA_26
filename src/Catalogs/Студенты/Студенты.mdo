@@ -111,21 +111,36 @@
   <defaultObjectForm>Catalog.Студенты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Студенты.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Студенты.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="3627e076-5550-4691-95a1-14928f0ee03e">
-    <name>Почта</name>
+  <attributes uuid="07958781-0bed-49fe-bf8c-951acc445b69">
+    <name>ДатаРождения</name>
     <synonym>
       <key>ru</key>
-      <value>Почта</value>
+      <value>Дата рождения</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>100</length>
-      </stringQualifiers>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ec53eb5-8437-463c-9f55-b8ab821b6058">
+    <name>ИностранныйГражданин</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранный гражданин</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -162,18 +177,21 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4ec53eb5-8437-463c-9f55-b8ab821b6058">
-    <name>ИностранныйГражданин</name>
+  <attributes uuid="3627e076-5550-4691-95a1-14928f0ee03e">
+    <name>Почта</name>
     <synonym>
       <key>ru</key>
-      <value>Иностранный гражданин</value>
+      <value>Почта</value>
     </synonym>
     <type>
-      <types>Boolean</types>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
@@ -222,24 +240,6 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="07958781-0bed-49fe-bf8c-951acc445b69">
-    <name>ДатаРождения</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата рождения</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers>
-        <dateFractions>Date</dateFractions>
-      </dateQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <forms uuid="8e80769c-d9e4-42ee-95ea-65a1df541538">
     <name>ФормаВыбора</name>
     <synonym>
@@ -249,20 +249,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="1f5934cd-39a2-40b6-af31-227ca59d074b">
-    <name>ФормаЭлемента</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма элемента</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
   <forms uuid="30df399b-0e44-497f-a40c-a4399025cc70">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1f5934cd-39a2-40b6-af31-227ca59d074b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

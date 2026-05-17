@@ -12,13 +12,6 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="38cb8b2e-678b-4449-81bf-041e1dcc9b6f">
-    <name>ОФО</name>
-    <synonym>
-      <key>ru</key>
-      <value>Очная форма обучения</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="5032929d-1c7a-4552-9a99-4766171a0e48">
     <name>ЗФО</name>
     <synonym>
@@ -31,6 +24,13 @@
     <synonym>
       <key>ru</key>
       <value>Очно-заочная форма обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="38cb8b2e-678b-4449-81bf-041e1dcc9b6f">
+    <name>ОФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очная форма обучения</value>
     </synonym>
   </enumValues>
   <enumValues uuid="15e81c33-9a1b-4cba-92d6-d251abd9f004">

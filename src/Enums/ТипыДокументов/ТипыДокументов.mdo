@@ -12,18 +12,18 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="5ee2ee8e-5b85-47b4-8e25-56cf606a1f6e">
-    <name>ЗачислениеНаКурс</name>
-    <synonym>
-      <key>ru</key>
-      <value>Зачисление на курс</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="94ad5f04-46ef-43cb-8ab1-c46846d963ed">
     <name>ДелениеНаПодгруппы</name>
     <synonym>
       <key>ru</key>
       <value>Деление на подгруппы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ee2ee8e-5b85-47b4-8e25-56cf606a1f6e">
+    <name>ЗачислениеНаКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление на курс</value>
     </synonym>
   </enumValues>
   <enumValues uuid="abeaea11-49cc-46a1-affa-0be4f68f956e">

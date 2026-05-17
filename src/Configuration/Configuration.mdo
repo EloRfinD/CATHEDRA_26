@@ -25,9 +25,22 @@
     </functionality>
   </usedMobileApplicationFunctionalities>
   <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <mainSectionPicture/>
+  <caption>
+    <key>ru</key>
+    <value>Цифровая Кафедра</value>
+  </caption>
+  <shortCaption>
+    <key>ru</key>
+    <value>ЦК</value>
+  </shortCaption>
+  <defaultStyle>Style.ОсновнойСтиль</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
+  <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <interfaceCompatibilityMode>TaxiEnableVersion8_5</interfaceCompatibilityMode>
+  <version85InterfaceMigrationMode>Use</version85InterfaceMigrationMode>
   <compatibilityMode>8.3.26</compatibilityMode>
   <languages uuid="b7c9aacc-b578-4dc2-aa70-45a927913a6d">
     <name>Русский</name>
@@ -41,6 +54,11 @@
   <subsystems>Subsystem.НастройкаИАдминистрирование</subsystems>
   <subsystems>Subsystem.ПланированиеИОрганизацияУчебногоПроцесса</subsystems>
   <subsystems>Subsystem.СлужебнаяИнформация</subsystems>
+  <styles>Style.ОсновнойСтиль</styles>
+  <commonPictures>CommonPicture.КартинкаВзаиморасчеты</commonPictures>
+  <commonPictures>CommonPicture.КартинкаИнформация</commonPictures>
+  <commonPictures>CommonPicture.КартинкаНастройки</commonPictures>
+  <commonPictures>CommonPicture.КартинкаЧасы</commonPictures>
   <commonModules>CommonModule.ПолучениеШаблонаВызовСервера</commonModules>
   <commonModules>CommonModule.ФункцииЗаполнениеШаблонаГлобальный</commonModules>
   <definedTypes>DefinedType.Деньги</definedTypes>
@@ -74,7 +92,6 @@
   <enums>Enum.Должности</enums>
   <enums>Enum.МесяцыГода</enums>
   <enums>Enum.Отрасли</enums>
-  <enums>Enum.ТипНедели</enums>
   <enums>Enum.ТипыДокументов</enums>
   <enums>Enum.УченыеСтепени</enums>
   <enums>Enum.ФормыОбучения</enums>

@@ -39,24 +39,6 @@
   <defaultObjectForm>Catalog.СтруктурныеПодразделения.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.СтруктурныеПодразделения.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.СтруктурныеПодразделения.Form.ФормаВыбора</defaultChoiceForm>
-  <attributes uuid="941b48b3-9a20-4226-a2c2-a7c7a506351b">
-    <name>СокращенноеНаименование</name>
-    <synonym>
-      <key>ru</key>
-      <value>Сокращенное наименование</value>
-    </synonym>
-    <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="2e205e2a-2465-4ded-92ee-479d4426a6b5">
     <name>РуководительДолжность</name>
     <synonym>
@@ -87,11 +69,29 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="378ffaeb-31ea-4710-a4e9-ce2b56bde46c">
-    <name>ФормаЭлемента</name>
+  <attributes uuid="941b48b3-9a20-4226-a2c2-a7c7a506351b">
+    <name>СокращенноеНаименование</name>
     <synonym>
       <key>ru</key>
-      <value>Форма элемента</value>
+      <value>Сокращенное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6db5702e-be28-4a49-9e36-4d14e88f7a75">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -105,11 +105,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="6db5702e-be28-4a49-9e36-4d14e88f7a75">
-    <name>ФормаВыбора</name>
+  <forms uuid="378ffaeb-31ea-4710-a4e9-ce2b56bde46c">
+    <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
-      <value>Форма выбора</value>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

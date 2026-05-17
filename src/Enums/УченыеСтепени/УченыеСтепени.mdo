@@ -12,18 +12,18 @@
   </synonym>
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
-  <enumValues uuid="bb8b8774-eaba-4cc0-8184-0aff34927d71">
-    <name>КандидатНаук</name>
-    <synonym>
-      <key>ru</key>
-      <value>Кандидат наук</value>
-    </synonym>
-  </enumValues>
   <enumValues uuid="27bd9ba5-8672-40ba-a023-20e2013b7d03">
     <name>ДокторНаук</name>
     <synonym>
       <key>ru</key>
       <value>Доктор наук</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bb8b8774-eaba-4cc0-8184-0aff34927d71">
+    <name>КандидатНаук</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кандидат наук</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>
