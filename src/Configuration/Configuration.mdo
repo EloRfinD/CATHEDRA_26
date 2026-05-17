@@ -41,8 +41,8 @@
   <subsystems>Subsystem.НастройкаИАдминистрирование</subsystems>
   <subsystems>Subsystem.ПланированиеИОрганизацияУчебногоПроцесса</subsystems>
   <subsystems>Subsystem.СлужебнаяИнформация</subsystems>
-  <commonModules>CommonModule.ФункцииНаКлиенте</commonModules>
-  <commonModules>CommonModule.ФункцииНаСервере</commonModules>
+  <commonModules>CommonModule.ПолучениеШаблонаВызовСервера</commonModules>
+  <commonModules>CommonModule.ФункцииЗаполнениеШаблонаГлобальный</commonModules>
   <definedTypes>DefinedType.Деньги</definedTypes>
   <definedTypes>DefinedType.Коэффициенты</definedTypes>
   <constants>Constant.ДиректорИДПО</constants>
