@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7e94b048-6351-4a1b-bbeb-efdf1c1175b8">
+  <producedTypes>
+    <refType typeId="69e28cb7-3307-40b8-9a60-35253915d308" valueTypeId="a591075c-f270-4ef1-b936-3533b3b3a44f"/>
+    <listType typeId="3d98a398-da45-480b-ac0b-5e6a99e04c13" valueTypeId="2487b31e-8a34-4b11-b4d7-7364181599bd"/>
+    <managerType typeId="d03e5999-43d7-4481-aa67-3257f0cce11a" valueTypeId="f697088b-f34e-49bc-9033-509bb8531927"/>
+  </producedTypes>
+  <name>Должности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должности</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="83ba55be-3991-421c-b342-ea478f982827">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a142b39e-ea7c-47db-b04d-f93d1b33670f">
+    <name>Ассистент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ассистент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0c1ff5f-9590-4218-b5d3-dfe62297c457">
+    <name>СтаршийПреподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старший преподаватель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ff9934b6-1199-404b-adf8-85657549a79d">
+    <name>Доцент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доцент</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d54d190-beae-4458-98ad-170aa7ceba91">
+    <name>Профессор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профессор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="254d5740-e605-4833-b711-6891463106aa">
+    <name>Заведующий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заведующий</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28f37213-58fa-4a17-ad93-a386482e461b">
+    <name>Декан</name>
+    <synonym>
+      <key>ru</key>
+      <value>Декан</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c04a2d4d-4437-42e6-8c6e-cef2be8349c4">
+    <name>Директор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Директор</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="af028640-a133-4c7d-84d0-c22e1936aa67">
+    <name>ЗамДекана</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зам. декана</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b54ca71-add9-4d5f-a3e6-fb72df03af5a">
+    <name>Начальник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начальник</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c73c4c5a-dfee-48d6-87d6-3e1121054117">
+    <name>ПроректорПоОбразовательнойДеятельности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проректор по образовательной деятельности</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

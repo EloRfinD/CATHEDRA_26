@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbca9231-3349-40d7-932c-960610e0a4b8">
+  <producedTypes>
+    <managerType typeId="649e88c5-8ab3-45ec-8ed0-6690188ce440" valueTypeId="6eb78c93-c235-4753-9f83-2a94fd5fdbaa"/>
+    <valueManagerType typeId="8dffe2fa-0340-4e26-91f6-8e8e0c77d92e" valueTypeId="2bd0fd54-58b3-49b2-accb-cc2497a0a907"/>
+    <valueKeyType typeId="91960c27-1eaf-43f4-bc5d-ef1379f5160c" valueTypeId="3f993fca-3f9d-4e56-9a32-9cc30a00e4ce"/>
+  </producedTypes>
+  <name>ПроректорПоОбразовательнойДеятельности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Проректор по образовательной деятельности</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Сотрудники</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

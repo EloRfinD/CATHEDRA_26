@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="490fe3cf-8dee-48f3-a423-81f2055432ca">
+  <name>ЦифроваяКафедра</name>
+  <synonym>
+    <key>ru</key>
+    <value>Цифровая кафедра</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="a94a7256-747f-4801-b709-d70a22e99b0e"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="8f2b35a0-40a5-4604-9cf9-c47caaa68a74"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="1dd48287-5823-409f-bdd2-f334d546356f"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fb05fb14-3d0f-4ccc-bd89-ac9eb15f2a27"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="0643dcf2-993e-46db-b6ef-fd4eacb68008"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="bd205703-40ac-4218-8d93-00072cd9b08e"/>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="40445a30-9406-4886-b438-2b4bf7c0a8df"/>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+    <functionality>
+      <functionality>OSBackup</functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
+  <clientApplicationWindowsOpenVariant>OpenDataInDialogs</clientApplicationWindowsOpenVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <compatibilityMode>8.3.26</compatibilityMode>
+  <languages uuid="b7c9aacc-b578-4dc2-aa70-45a927913a6d">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <subsystems>Subsystem.Взаиморасчеты</subsystems>
+  <subsystems>Subsystem.НастройкаИАдминистрирование</subsystems>
+  <subsystems>Subsystem.ПланированиеИОрганизацияУчебногоПроцесса</subsystems>
+  <subsystems>Subsystem.СлужебнаяИнформация</subsystems>
+  <commonModules>CommonModule.ФункцииНаКлиенте</commonModules>
+  <commonModules>CommonModule.ФункцииНаСервере</commonModules>
+  <definedTypes>DefinedType.Деньги</definedTypes>
+  <definedTypes>DefinedType.Коэффициенты</definedTypes>
+  <constants>Constant.ДиректорИДПО</constants>
+  <constants>Constant.ИндексПроекта</constants>
+  <constants>Constant.КодОбеспечения</constants>
+  <constants>Constant.НазваниеПроекта</constants>
+  <constants>Constant.НеСпрашиватьИзменениеJSON</constants>
+  <constants>Constant.ПроректорПоОбразовательнойДеятельности</constants>
+  <constants>Constant.СтоимостьЧаса</constants>
+  <constants>Constant.СтоимостьЧасаГПХ</constants>
+  <constants>Constant.УтвержденПриказом</constants>
+  <constants>Constant.ШифрПроекта</constants>
+  <commonForms>CommonForm.ФормаКонстант</commonForms>
+  <commonForms>CommonForm.ФормаПользовательскихНастроек</commonForms>
+  <catalogs>Catalog.НаправленияПодготовки</catalogs>
+  <catalogs>Catalog.Сотрудники</catalogs>
+  <catalogs>Catalog.СтруктурныеПодразделения</catalogs>
+  <catalogs>Catalog.Студенты</catalogs>
+  <catalogs>Catalog.УчебныеПрограммы</catalogs>
+  <catalogs>Catalog.ШаблоныДокументов</catalogs>
+  <documents>Document.КорректировкаНагрузки</documents>
+  <documents>Document.ОрганизационныйПриказНаКурс</documents>
+  <documents>Document.ПриказОЗачисленииНаКурс</documents>
+  <documents>Document.Расписание</documents>
+  <documents>Document.РасчетСРуководителем</documents>
+  <documents>Document.РасчетССотрудниками</documents>
+  <documents>Document.ФормированиеПодгруппы</documents>
+  <enums>Enum.ДниНедели</enums>
+  <enums>Enum.Должности</enums>
+  <enums>Enum.МесяцыГода</enums>
+  <enums>Enum.Отрасли</enums>
+  <enums>Enum.ТипНедели</enums>
+  <enums>Enum.ТипыДокументов</enums>
+  <enums>Enum.УченыеСтепени</enums>
+  <enums>Enum.ФормыОбучения</enums>
+  <informationRegisters>InformationRegister.ДолжностныеОклады</informationRegisters>
+  <informationRegisters>InformationRegister.Подгруппы</informationRegisters>
+  <accumulationRegisters>AccumulationRegister.НагрузкаПреподавателей</accumulationRegisters>
+</mdclass:Configuration>

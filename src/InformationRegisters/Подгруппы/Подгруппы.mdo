@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b9e2f0-7675-4929-b654-dc98d564e58c">
+  <producedTypes>
+    <selectionType typeId="8ffe871e-bc32-4979-a07f-cc7189c575b9" valueTypeId="1191f8ed-fda4-4d1d-9cbe-ef6bb2b46c77"/>
+    <listType typeId="925787d6-f292-46af-a235-ddc8a8abcdb7" valueTypeId="cdefee2a-3810-42bf-8930-065d0dc05c30"/>
+    <managerType typeId="155a4410-36e3-4443-951c-256155a5f90b" valueTypeId="634c70f8-6468-44d6-b811-e1d4ea45a557"/>
+    <recordSetType typeId="6241ffe1-55de-41f2-beb4-97383c5fcd1d" valueTypeId="19578d1b-c95e-4501-b65b-c04d94033976"/>
+    <recordKeyType typeId="b3cc5620-f81d-4fb6-b652-ca360f741e09" valueTypeId="567e1910-4711-4d8f-95b9-c26dd3c04fa6"/>
+    <recordType typeId="7ece558b-2214-4d22-a43b-163a67a03d81" valueTypeId="eb4e99e1-0547-4706-b805-846ef7d57607"/>
+    <recordManagerType typeId="a9c6c4ca-fbed-4024-8895-c448024e9354" valueTypeId="148b07bc-4e81-4192-96fa-ee046e4cd684"/>
+  </producedTypes>
+  <name>Подгруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подгруппы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="4c50c5b4-67d1-4310-9420-909b942c82f0">
+    <name>НомерПодгруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подгруппы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue"/>
+  </resources>
+  <dimensions uuid="e21bf28b-7607-4898-9e4e-3f746343de69">
+    <name>Слушатель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Слушатель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Студенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

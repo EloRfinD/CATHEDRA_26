@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5ce12933-fe4d-48c5-81a1-4ac4239383da">
+  <producedTypes>
+    <objectType typeId="560acbc8-1bf3-49e0-ac75-7ad1bf4fc1f8" valueTypeId="324a7b68-1a5d-446d-a704-8f66fa46d276"/>
+    <refType typeId="2be3dc3b-2f45-4dda-a700-c5371b8579cd" valueTypeId="a2927160-b0f9-47d2-bcd7-1b7da9ed52b8"/>
+    <selectionType typeId="8a186570-1182-4fa4-ab61-1ceb555497d5" valueTypeId="6c2c6ed8-6429-487e-b145-63b00786489d"/>
+    <listType typeId="717c03de-ab7b-427c-9ba7-05514efd4461" valueTypeId="67f8ba43-649d-437d-9717-20cc38a29d74"/>
+    <managerType typeId="47bbe977-a423-4348-8b72-936db37b7fb1" valueTypeId="582c2525-446e-4048-afc5-a2ffc25e92a5"/>
+  </producedTypes>
+  <name>СтруктурныеПодразделения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структурные подразделения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.СтруктурныеПодразделения.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.СтруктурныеПодразделения.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Структурное подразделение</value>
+  </objectPresentation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.СтруктурныеПодразделения.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.СтруктурныеПодразделения.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.СтруктурныеПодразделения.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="941b48b3-9a20-4226-a2c2-a7c7a506351b">
+    <name>СокращенноеНаименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сокращенное наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2e205e2a-2465-4ded-92ee-479d4426a6b5">
+    <name>РуководительДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель должность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5147412a-9d08-4905-a04f-a3532fe39af0">
+    <name>РуководительФИО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель ФИО</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="378ffaeb-31ea-4710-a4e9-ce2b56bde46c">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ac18e821-82db-405e-8a35-d308bb4d0a70">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6db5702e-be28-4a49-9e36-4d14e88f7a75">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

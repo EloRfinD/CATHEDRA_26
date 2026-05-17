@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:AccumulationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ed48e133-3b0d-4887-b80d-892af8f37a87">
+  <producedTypes>
+    <selectionType typeId="e1027348-2262-4888-9a23-874038d0bfbf" valueTypeId="7251a13a-6084-4e57-ba62-072240a579ab"/>
+    <listType typeId="ccac0ea5-db49-4597-8719-f5f5c44f6d81" valueTypeId="e6a6d6cb-8519-4156-a53f-c753d142a095"/>
+    <managerType typeId="9458abcd-0225-4cf1-afbc-d03faddafe91" valueTypeId="7994309a-00d5-46f0-9763-951b01f5e6e5"/>
+    <recordSetType typeId="dcb2a71c-6051-43e0-96d1-a7b2fe8f7f08" valueTypeId="4710c540-c018-4d23-ab27-29322a1d0b75"/>
+    <recordKeyType typeId="3c562d27-87cb-4265-8072-0744e24956f7" valueTypeId="748dabe9-38ad-47f2-8979-f8ced88f04dd"/>
+    <recordType typeId="99d7f813-715d-4cd9-afbf-6ba9e1bfa710" valueTypeId="85e55371-7bef-4bcd-a463-df2901a5e4fa"/>
+  </producedTypes>
+  <name>НагрузкаПреподавателей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нагрузка преподавателей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <registerType>Turnovers</registerType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSplitting>true</enableTotalsSplitting>
+  <resources uuid="4a55bcea-c4ad-4a74-809c-ba4b05cbd2a7">
+    <name>Часы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Часы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="d5b28918-19e8-4366-a335-7014b8183d04">
+    <name>Преподаватель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Преподаватель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+  <dimensions uuid="cc299dfa-1090-4c43-ac71-ab5c5d634204">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <useInTotals>true</useInTotals>
+  </dimensions>
+</mdclass:AccumulationRegister>

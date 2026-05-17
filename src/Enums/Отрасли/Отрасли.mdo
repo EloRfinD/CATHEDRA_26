@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e5ba7fa-13bb-4f79-875a-e941828042ef">
+  <producedTypes>
+    <refType typeId="21054502-9ec0-4936-bc8f-6edaae77b416" valueTypeId="c983ec03-5278-4ef9-8f8f-2f4157fb6126"/>
+    <listType typeId="68f579f7-d615-41f1-b20e-0462b27b9e01" valueTypeId="15f25cad-72b7-490b-973c-6c628b0c84b3"/>
+    <managerType typeId="10b145db-f9ba-4ccc-b628-469e529291a4" valueTypeId="eb7dfc83-7550-4279-8ecd-f4128e55cc13"/>
+  </producedTypes>
+  <name>Отрасли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отрасли</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="007a514b-a644-4277-ac4c-1a6533643ad1">
+    <name>ДобывающаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добывающая промышленность и природопользование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b7d4775b-5186-4789-9710-ae41a3c81308">
+    <name>Здравоохранение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Здравоохранение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03cee257-2ee2-45f6-be5d-445816e451a9">
+    <name>МаркетингРеклама</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маркетинг, реклама и связи с общественностью</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="70ab3c1c-d452-4100-baaf-740983473e64">
+    <name>Медиа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Медиа и средства массовой информации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="47370cbf-1ba5-4cf9-87a8-49af37068af4">
+    <name>ОбрабатывающаяПромышленность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обрабатывающая промышленность</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0234d090-276b-4db3-b29e-a74be13b1049">
+    <name>ОбразованиеИНаука</name>
+    <synonym>
+      <key>ru</key>
+      <value>Образование и наука</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7ea53c1-439e-4c57-a7f9-d6b212195a7f">
+    <name>СельскоеХозяйство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сельское хозяйство и агропромышленный комплекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1eabe32f-13c1-4c90-9c95-99e5cf15fe15">
+    <name>СоциальнаяСфера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Социальная сфера</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a9949671-30f4-48b0-ba21-da49694e6304">
+    <name>Строительство</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строительство и городское хозяйство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4094e29e-ba36-4448-891b-c9e8686ac80b">
+    <name>ТопливноЭнергетическийКомплекс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Топливно-энергетический комплекс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09f9c05c-2b57-446a-8f1a-5d96fb22079f">
+    <name>Транспортная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Транспортная</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66035444-3f20-4f00-af50-d7735c063e07">
+    <name>Экономика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Экономика, финансы и управление</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

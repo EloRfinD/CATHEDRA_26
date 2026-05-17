@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a745c3b-9bb5-4533-9913-fc3b415b6887">
+  <producedTypes>
+    <objectType typeId="f06aede7-6567-4a55-98a2-1d8bf71f8a6f" valueTypeId="3f1f8c91-0b5a-4867-9480-2a84f09d88bc"/>
+    <refType typeId="319d5588-d02a-46fa-8ac3-6d41b6c20580" valueTypeId="de56614e-b60c-4c8c-a026-28ea42f347f7"/>
+    <selectionType typeId="e7e44b54-2824-46f0-8689-137fe20b8ec0" valueTypeId="53415ec9-33b8-43a5-93b0-e5ec3bf5d942"/>
+    <listType typeId="41a49e46-4147-4b18-b093-b337d199a8db" valueTypeId="c2cb9bf5-1321-4494-8a15-ea65dc048347"/>
+    <managerType typeId="79e23fcc-71f9-4480-8dc5-d5e69bcfb225" valueTypeId="e89937c8-fec2-4e4f-9588-7050277bdb20"/>
+  </producedTypes>
+  <name>ОрганизационныйПриказНаКурс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Организационный приказ на курс</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ОрганизационныйПриказНаКурс.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ОрганизационныйПриказНаКурс.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ОрганизационныйПриказНаКурс.Form.ФормаСписка</defaultListForm>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0b73e2b1-6d6c-49a8-802b-379881b23f59">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="dd12656a-df24-4288-8427-77656968ac1c">
+    <name>ПодписантДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="991d9bcf-ac52-4bb9-9df5-5ddf7f260e12">
+    <name>Подписант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подписант</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b3002f29-6fd8-49b3-b066-8ba0d66e12db">
+    <name>ПроектПриказаВноситДолжность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект приказа вносит - должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="386c2e9d-dd8e-4957-8d22-5b82d50135e3">
+    <name>ПроектПриказаВносит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проект приказа вносит</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c735f6d6-d553-489d-a7e1-daf0430807ff">
+    <name>Согласовано1Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано1 должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1d26a718-93ed-4b32-967d-ca6a78ed5856">
+    <name>Согласовано1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано1</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="eb91ffea-4592-4f94-a558-14d17da8028b">
+    <name>Согласовано2Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано2 должность</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="bfe6f0cf-d92e-450f-b560-1b2f22f89ca7">
+    <name>Согласовано2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласовано2</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="8b618466-3293-4cb2-87f6-a5234c1dbce0">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="972b5c6d-257a-4a59-8a3d-7fbcf4efa9c7">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="25d68d69-4503-4ddd-b1d2-1700d27afa6d">
+    <name>СохранитьДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить документ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ОрганизационныйПриказНаКурс</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SaveFile</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

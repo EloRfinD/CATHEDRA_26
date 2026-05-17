@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca0d4260-8273-478b-bafc-4f573b4df91e">
+  <producedTypes>
+    <refType typeId="fd886693-3d3f-41ec-9dbc-f365dae85ce5" valueTypeId="30bb949b-a4fd-47b6-adb5-3e903a0ecdf8"/>
+    <listType typeId="e45af78e-2953-4571-8292-3c249310b20d" valueTypeId="b875c41f-c4e6-4942-a2ce-287ef0204007"/>
+    <managerType typeId="98ecddf2-6431-46ec-a174-3d071af7842d" valueTypeId="f97c5540-47e9-47e3-b1af-7836478b52bd"/>
+  </producedTypes>
+  <name>ТипыДокументов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы документов</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5ee2ee8e-5b85-47b4-8e25-56cf606a1f6e">
+    <name>ЗачислениеНаКурс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зачисление на курс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="94ad5f04-46ef-43cb-8ab1-c46846d963ed">
+    <name>ДелениеНаПодгруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деление на подгруппы</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="abeaea11-49cc-46a1-affa-0be4f68f956e">
+    <name>ОрганизационныйПриказ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организационный приказ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14c03e4e-3255-46ad-a596-059f6824bd6f">
+    <name>СЗСтимулирование</name>
+    <synonym>
+      <key>ru</key>
+      <value>СЗ Стимулирование</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fded7b44-0f31-4d65-a5b2-96445e5fb8d7">
+    <name>СЗСтимулированиеРуководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>СЗСтимулирование руководитель</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

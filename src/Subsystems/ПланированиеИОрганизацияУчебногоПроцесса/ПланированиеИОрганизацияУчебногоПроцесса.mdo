@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="20941628-29d2-4523-a47d-d4e0febd2211">
+  <name>ПланированиеИОрганизацияУчебногоПроцесса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Планирование и организация учебного процесса</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.УчебныеПрограммы</content>
+  <content>Document.ОрганизационныйПриказНаКурс</content>
+  <content>Document.ПриказОЗачисленииНаКурс</content>
+  <content>Catalog.Студенты</content>
+  <content>Document.ФормированиеПодгруппы</content>
+  <content>InformationRegister.Подгруппы</content>
+  <content>Document.Расписание</content>
+  <content>Document.КорректировкаНагрузки</content>
+</mdclass:Subsystem>

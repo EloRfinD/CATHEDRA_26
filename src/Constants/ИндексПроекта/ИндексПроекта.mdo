@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fda46c87-5b49-49be-b3a2-2762cf91cafe">
+  <producedTypes>
+    <managerType typeId="5d0cb92f-fbe9-444e-a74e-8e47dd46826b" valueTypeId="7adc879a-fa6a-4231-bc38-e2b72afa6a9f"/>
+    <valueManagerType typeId="12acd9eb-29d5-4834-a826-ad16078f6426" valueTypeId="e860815a-356c-47e6-a0e7-ffd5487e8c4f"/>
+    <valueKeyType typeId="023a617a-c237-4321-b7e1-f2e7ec39024a" valueTypeId="f73c8529-f640-4cb6-bc78-d94079157ce0"/>
+  </producedTypes>
+  <name>ИндексПроекта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Индекс проекта</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>1</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="332e8e8c-7264-4aec-ba6b-7d1a62cc423c">
+  <producedTypes>
+    <objectType typeId="a7982e2f-3d05-409d-950b-ac1f6e29a6ed" valueTypeId="0fc97f0a-4806-4bd4-a5af-a1e0348b87fe"/>
+    <refType typeId="9cb20274-e44d-45f2-bff9-b9bd3b741693" valueTypeId="18aeee0c-bdd5-48a2-98ff-a82cb99731a2"/>
+    <selectionType typeId="890288fc-b655-48a6-91af-82393c96e9f7" valueTypeId="aff2419c-23bc-47f9-82e3-8b1f2b193ecc"/>
+    <listType typeId="f603113a-1f39-496e-b23b-7b2e74a5ce4c" valueTypeId="70986d97-36a1-4099-a7e9-11875a71236d"/>
+    <managerType typeId="cce3eef3-3f37-4e57-96f9-dba9adaf4497" valueTypeId="e4fb324f-d620-46e7-860c-7c09f4f19b1a"/>
+  </producedTypes>
+  <name>ФормированиеПодгруппы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формирование подгруппы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ФормированиеПодгруппы.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.ФормированиеПодгруппы.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.ФормированиеПодгруппы.Form.ФормаСписка</defaultListForm>
+  <registerRecords>InformationRegister.Подгруппы</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="bfc307ed-fc1e-474a-9ee6-4afa2ec7cc25">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c63e971-5004-433c-a78e-3af89691260e">
+    <name>НомерПодгруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер подгруппы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>15</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="eaaaac7d-9c17-486b-bfe7-f5b9a4c2b168">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="874ba099-444f-4d90-9b2d-f63a934bf65d">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a90d742c-d184-4816-bdfc-cbc82076c096">
+    <producedTypes>
+      <objectType typeId="aa8f75dd-6d3a-4b40-ac59-b310a5c8327a" valueTypeId="ba0039c4-8327-4a80-8968-839547747ebb"/>
+      <rowType typeId="e38ed2fa-8a32-4138-83bd-9d1639e26b7a" valueTypeId="a1428a02-465e-4255-bee2-047f814f686a"/>
+    </producedTypes>
+    <name>СписокСлушателей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список слушателей</value>
+    </synonym>
+    <attributes uuid="4a5bc52c-5419-4f48-9fdf-8f92659d86ab">
+      <name>Слушатель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Слушатель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Студенты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Отбор.Владелец</name>
+        <field>Document.ФормированиеПодгруппы.Attribute.Программа</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <commands uuid="251990e8-4dcb-4fee-a4ca-e01a030424c6">
+    <name>СохранитьДокумент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранить документ</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>DocumentRef.ФормированиеПодгруппы</types>
+    </commandParameterType>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>PictureAndText</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>StdPicture.SaveFile</picture>
+    </picture>
+  </commands>
+</mdclass:Document>

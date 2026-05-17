@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a0e3fa92-cf7b-4191-9748-17469901f5eb">
+  <producedTypes>
+    <refType typeId="9f029484-e310-4db5-948e-a663d281ee40" valueTypeId="23fcddd8-337b-4384-815c-ba4beb676633"/>
+    <listType typeId="81aee6c7-cf48-4f6d-9cca-9564eafca0b5" valueTypeId="ee82e505-7242-47b7-8d2f-152467009af3"/>
+    <managerType typeId="ba45db86-8cc3-41f8-91ca-d7fe7d0a9d89" valueTypeId="92d8a036-698b-41e4-a62c-0ad633d0ee02"/>
+  </producedTypes>
+  <name>ФормыОбучения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Формы обучения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="38cb8b2e-678b-4449-81bf-041e1dcc9b6f">
+    <name>ОФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очная форма обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5032929d-1c7a-4552-9a99-4766171a0e48">
+    <name>ЗФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заочная форма обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39d487b3-2a4a-47d3-8316-22fdd41e8fdb">
+    <name>ОЗФО</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очно-заочная форма обучения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="15e81c33-9a1b-4cba-92d6-d251abd9f004">
+    <name>ОчноДистанционная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очная с использованием дистанционных технологий и электронного обучения</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

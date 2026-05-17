@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f314ff-ff60-4dd1-b303-1facdb2985de">
+  <producedTypes>
+    <objectType typeId="99925ad2-a375-4879-8b84-e843a21d67e3" valueTypeId="4e97c335-39d7-4044-8f03-495ab0f15828"/>
+    <refType typeId="556d86be-6188-441b-98a9-c6d3934bfd32" valueTypeId="8f1a8590-c19c-46a7-8251-6ff02b390a28"/>
+    <selectionType typeId="7a7b01e1-ebe3-4f38-ae02-0874e505c5aa" valueTypeId="9ebb6b14-2c12-4618-8d8c-919f5d04412f"/>
+    <listType typeId="25ec674c-458d-4215-8e64-8e00aa67991b" valueTypeId="cd835e2b-4a6f-43ce-b2d2-ac642eaab62d"/>
+    <managerType typeId="58e9f69a-7e82-4261-81a8-c30169af7b27" valueTypeId="9d80b58a-1a28-46b0-ac25-11e02e8eb602"/>
+  </producedTypes>
+  <name>КорректировкаНагрузки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Корректировка нагрузки</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.КорректировкаНагрузки.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.КорректировкаНагрузки.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.КорректировкаНагрузки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.КорректировкаНагрузки.Form.ФормаВыбора</defaultChoiceForm>
+  <registerRecords>AccumulationRegister.НагрузкаПреподавателей</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <forms uuid="ea122572-3e68-40aa-a9f0-a231d7a6d8e3">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9260325f-8ed5-4439-9cba-2a0b2e1a9863">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b369b3e5-e38d-494c-a62e-b015dc7dfd22">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="3278309f-3e4c-4a1d-8081-a1424465d0e0">
+    <producedTypes>
+      <objectType typeId="d8d9c334-0f45-4fe5-978a-239654942a38" valueTypeId="0b79bd7b-7f07-4a47-8cce-173f5faf53a8"/>
+      <rowType typeId="6223392a-dd5d-4d56-83dc-9a54617bc733" valueTypeId="4c2f2566-96d5-4489-b2bc-de45b13c5a93"/>
+    </producedTypes>
+    <name>Корректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка</value>
+    </synonym>
+    <attributes uuid="94c48f6d-61cd-4362-b4b5-d9fa18498a2f">
+      <name>Преподаватель</name>
+      <synonym>
+        <key>ru</key>
+        <value>Преподаватель</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="680c0fbb-7667-4c34-89b3-b497c2f762ce">
+      <name>Месяц</name>
+      <synonym>
+        <key>ru</key>
+        <value>Месяц</value>
+      </synonym>
+      <type>
+        <types>EnumRef.МесяцыГода</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c1bff95d-fe66-4e41-9912-5f24ff870e75">
+      <name>КоличествоЧасов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество часов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2693588c-641e-45e9-abdf-7e34b80fa6c5">
+      <name>Причина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Причина</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>255</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

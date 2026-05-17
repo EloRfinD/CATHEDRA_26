@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5bfc217c-8b64-495c-9d78-099f5d81f176">
+  <producedTypes>
+    <managerType typeId="97a82944-f91d-4a82-a574-4834049b4d3f" valueTypeId="623a5e9b-6e22-4e42-94a8-eaf16750565e"/>
+    <valueManagerType typeId="eede3942-799f-4908-8bc6-2e7873987271" valueTypeId="747b1c04-fe1c-4013-9fc5-fa91ffbbc6b0"/>
+    <valueKeyType typeId="e0d32327-127c-4b3c-b901-94cdd064a3c8" valueTypeId="0f7108e4-d203-4c22-bfc2-e38a8818d209"/>
+  </producedTypes>
+  <name>СтоимостьЧаса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стоимость часа</value>
+  </synonym>
+  <type>
+    <types>DefinedType.Деньги</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

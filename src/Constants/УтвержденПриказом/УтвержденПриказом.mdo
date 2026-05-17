@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5eaa81d3-2325-4e15-8b8c-98eda6ed3c70">
+  <producedTypes>
+    <managerType typeId="6d6dd4b7-a9fc-4b64-b423-b64864a4ee32" valueTypeId="c9387b19-f579-4286-8f9d-d43bb4784890"/>
+    <valueManagerType typeId="8172d43d-b8d7-4811-b8b5-9914b2381f1e" valueTypeId="312dca18-94e7-4e45-ba2e-df491b240e52"/>
+    <valueKeyType typeId="1b733dff-dfd2-4163-b1f9-cfa3e53302f0" valueTypeId="3abc4d9f-07bc-46c5-a5c6-9b8b5229c4f9"/>
+  </producedTypes>
+  <name>УтвержденПриказом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Утвержден приказом</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

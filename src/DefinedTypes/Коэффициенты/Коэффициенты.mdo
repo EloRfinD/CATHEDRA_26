@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="75666cdb-7d13-4e3e-b837-159f2aa73978">
+  <producedTypes>
+    <containerType typeId="ec951b8e-d935-47c1-bd8c-0a1a10f0ac8b" valueTypeId="a904f560-fe2c-4d49-bcb0-850567436651"/>
+  </producedTypes>
+  <name>Коэффициенты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Коэффициенты</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>2</precision>
+      <scale>1</scale>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

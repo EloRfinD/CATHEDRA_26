@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e56b53ec-207d-4502-8aeb-79ff74d79e0d">
+  <producedTypes>
+    <managerType typeId="646cf1e8-20ee-4b6d-9e77-1dd318d7d100" valueTypeId="f962d05b-abea-4961-977d-e3600cb6c8f5"/>
+    <valueManagerType typeId="682eb6fe-aaa2-4c09-8106-0c84aab836d4" valueTypeId="9ec12cd4-8f35-4cbf-b0fb-7a3be0f0cae0"/>
+    <valueKeyType typeId="407c9322-616d-46de-8fc5-61b06d20040a" valueTypeId="910a888c-1699-4e9a-8652-b7b3833940d8"/>
+  </producedTypes>
+  <name>НеСпрашиватьИзменениеJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>Не спрашивать изменение JSON</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

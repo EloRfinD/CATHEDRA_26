@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="33a04823-0d27-4fe4-9b00-66aac300a652">
+  <producedTypes>
+    <objectType typeId="7b3508ca-4ab6-4298-8985-225dc22db567" valueTypeId="9bddab90-a17d-44dc-ac86-4c867fadb215"/>
+    <refType typeId="de861da3-186b-4d75-90f5-69e3b11ea1bd" valueTypeId="0a2f6ae2-7042-4d3a-a96d-55f9d6f82570"/>
+    <selectionType typeId="a6978e17-a6c4-4c6e-b085-d289ddc654f6" valueTypeId="f0bc415c-34c3-4a47-835d-210ba7b84886"/>
+    <listType typeId="c859ed3d-c659-4054-839b-cd5d21378d86" valueTypeId="964a0678-6d5d-47cf-9706-0b8dc79c3d16"/>
+    <managerType typeId="719a003d-df7c-4720-9e7d-6e1b09186aec" valueTypeId="d6e67d88-b36e-4a99-8f48-bc544552aad6"/>
+  </producedTypes>
+  <name>НаправленияПодготовки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Направления подготовки</value>
+  </synonym>
+  <inputByString>Catalog.НаправленияПодготовки.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаправленияПодготовки.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шифр</value>
+    </synonym>
+    <fillValue xsi:type="core:StringValue">
+      <value>        </value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <codeLength>8</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <predefined>
+    <items id="abe3f893-c94a-4158-96a3-17ec539c3ad4">
+      <name>ГПИ</name>
+      <description>ГПИ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000001</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="469d3f55-c3a6-475e-a425-ab803ef10bd7">
+        <name>ОРМ</name>
+        <description>Организация работы с молодежью</description>
+        <code xsi:type="core:StringValue">
+          <value>39.04.03</value>
+        </code>
+      </content>
+      <content id="1cfe4bcb-dc2a-4df5-9cc7-6020adb79a4d">
+        <name>ПОМаг</name>
+        <description>Педагогическое образование</description>
+        <code xsi:type="core:StringValue">
+          <value>44.04.01</value>
+        </code>
+      </content>
+      <content id="a0ca5085-7fa3-445e-895a-fff7c8c81b71">
+        <name>ПО1Бак</name>
+        <description>Педагогическое образование</description>
+        <code xsi:type="core:StringValue">
+          <value>44.03.01</value>
+        </code>
+      </content>
+      <content id="7980b3c5-0a2d-4891-b8e8-0987db931b82">
+        <name>ПО2Бак</name>
+        <description>Педагогическое образование (с двумя профилями подготовки)</description>
+        <code xsi:type="core:StringValue">
+          <value>44.03.05</value>
+        </code>
+      </content>
+      <content id="b67e5a83-c7e2-4f86-8547-756755e4600f">
+        <name>ПБак</name>
+        <description>Психология</description>
+        <code xsi:type="core:StringValue">
+          <value>37.03.01</value>
+        </code>
+      </content>
+      <content id="017a0e68-3641-4c9e-a2c8-4c3a003dc832">
+        <name>ПМаг</name>
+        <description>Психология</description>
+        <code xsi:type="core:StringValue">
+          <value>37.04.01</value>
+        </code>
+      </content>
+      <content id="49ce8e24-e785-4100-b495-0db63d0b040d">
+        <name>ПСД</name>
+        <description>Психология служебной деятельности</description>
+        <code xsi:type="core:StringValue">
+          <value>37.05.02</value>
+        </code>
+      </content>
+      <content id="d2be7ee6-40be-4267-826d-850183e995ae">
+        <name>СДОБак</name>
+        <description>Специальное (дефектологическое) образование</description>
+        <code xsi:type="core:StringValue">
+          <value>44.03.03</value>
+        </code>
+      </content>
+      <content id="16d2140a-89bf-4b13-99af-d9b17c011f99">
+        <name>СДОМаг</name>
+        <description>Специальное (дефектологическое) образование</description>
+        <code xsi:type="core:StringValue">
+          <value>44.04.03</value>
+        </code>
+      </content>
+    </items>
+    <items id="595a3f71-cb5e-4145-a7e8-6fcb9144616a">
+      <name>ИОНМО</name>
+      <description>ИОНМО</description>
+      <code xsi:type="core:StringValue">
+        <value>00000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="1db6776d-9fca-4658-948a-6d6333f09720">
+      <name>ИПИ</name>
+      <description>ИПИ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000003</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a80e3506-9d30-4c9e-9628-2a5d5b158dcd">
+      <name>ИРГ</name>
+      <description>ИРГ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000004</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="8613d0ef-4602-4955-ae03-5bf3b49ec8cf">
+        <name>Арх</name>
+        <description>Архитектура</description>
+        <code xsi:type="core:StringValue">
+          <value>07.03.01</value>
+        </code>
+      </content>
+      <content id="d41ac994-a909-4aed-ac54-4d519912a5a8">
+        <name>ГДЗ</name>
+        <description>Геодезия и дистанционное зондирование</description>
+        <code xsi:type="core:StringValue">
+          <value>21.04.03</value>
+        </code>
+      </content>
+      <content id="c9fbf25b-923d-4d54-b50d-c3850548e416">
+        <name>ГМУБак</name>
+        <description>Государственное и муниципальное управление</description>
+        <code xsi:type="core:StringValue">
+          <value>38.03.04</value>
+        </code>
+      </content>
+      <content id="0f9689cf-396e-464c-bbed-03e9383def2b">
+        <name>ГМУМаг</name>
+        <description>Государственное и муниципальное управление</description>
+        <code xsi:type="core:StringValue">
+          <value>38.04.04</value>
+        </code>
+      </content>
+      <content id="bd3e527c-3c62-4ff6-81f7-7bc4f526af81">
+        <name>Г</name>
+        <description>Градостроительство</description>
+        <code xsi:type="core:StringValue">
+          <value>07.04.04</value>
+        </code>
+      </content>
+      <content id="48bda6e2-006d-4e83-997a-db8a7ecc46df">
+        <name>ЗиК</name>
+        <description>Землеустройство и кадастры</description>
+        <code xsi:type="core:StringValue">
+          <value>21.03.02</value>
+        </code>
+      </content>
+      <content id="3715ed9a-b5b0-4e43-9510-2f27123f2ed2">
+        <name>ЛАБак</name>
+        <description>Ландшафтная архитектура</description>
+        <code xsi:type="core:StringValue">
+          <value>35.03.10</value>
+        </code>
+      </content>
+      <content id="e465d95d-886c-4472-a71b-63a8e831f766">
+        <name>ЛАМаг</name>
+        <description>Ландшафтная архитектура</description>
+        <code xsi:type="core:StringValue">
+          <value>35.04.10</value>
+        </code>
+      </content>
+      <content id="d931befa-0036-40a4-91db-077adbc6bf56">
+        <name>МВВ</name>
+        <description>Менеджмент</description>
+        <code xsi:type="core:StringValue">
+          <value>38.04.02</value>
+        </code>
+      </content>
+      <content id="eddbee4c-0fc0-441c-b766-af9cafb73aa8">
+        <name>ВВ</name>
+        <description>Садоводство</description>
+        <code xsi:type="core:StringValue">
+          <value>35.03.05</value>
+        </code>
+      </content>
+      <content id="ac7ed28f-4ac6-4a3c-aa7f-d3b03c5ec0c6">
+        <name>УПП</name>
+        <description>Садоводство</description>
+        <code xsi:type="core:StringValue">
+          <value>35.04.05</value>
+        </code>
+      </content>
+      <content id="5549dec5-a689-4148-a18c-bdef8b733373">
+        <name>ПГСБак</name>
+        <description>Строительство</description>
+        <code xsi:type="core:StringValue">
+          <value>08.03.01</value>
+        </code>
+      </content>
+      <content id="1302ce5b-b4bf-437a-a464-b5b1b8b266f5">
+        <name>ПГСМаг</name>
+        <description>Строительство</description>
+        <code xsi:type="core:StringValue">
+          <value>08.04.01</value>
+        </code>
+      </content>
+    </items>
+    <items id="7911e417-3621-4226-84d3-da7e5a0f455b">
+      <name>ИРИТС</name>
+      <description>ИРИТС</description>
+      <code xsi:type="core:StringValue">
+        <value>00000005</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="07fe9b31-8875-4887-ab63-9f924866c90f">
+        <name>ИКС</name>
+        <description>Инфокоммуникационные технологии и системы связи</description>
+        <code xsi:type="core:StringValue">
+          <value>11.04.02</value>
+        </code>
+      </content>
+      <content id="3f42d462-60b7-4b74-a91f-05622540db8c">
+        <name>МИР</name>
+        <description>Мехатроника и робототехника</description>
+        <code xsi:type="core:StringValue">
+          <value>15.04.06</value>
+        </code>
+      </content>
+      <content id="a0e4c46c-4581-43fd-bb30-fe86f2d4b70e">
+        <name>РТ</name>
+        <description>Радиотехника</description>
+        <code xsi:type="core:StringValue">
+          <value>11.04.01</value>
+        </code>
+      </content>
+    </items>
+    <items id="02feab17-e56f-46ee-a902-6b1eb0f98a50">
+      <name>ИФМЗ</name>
+      <description>ИФМЗ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000006</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="05d34012-2c95-45b3-abd8-0fb3200049d2">
+        <name>ЛД</name>
+        <description>Лечебное дело</description>
+        <code xsi:type="core:StringValue">
+          <value>31.05.01</value>
+        </code>
+      </content>
+      <content id="1e7bbda1-6ea7-4903-a0d1-4bbb9d49640c">
+        <name>МедБФ</name>
+        <description>Медицинская биофизика</description>
+        <code xsi:type="core:StringValue">
+          <value>30.05.02</value>
+        </code>
+      </content>
+      <content id="2529c7e3-2199-4f50-9f24-8b8f417d272a">
+        <name>МедК</name>
+        <description>Медицинская кибернетика</description>
+        <code xsi:type="core:StringValue">
+          <value>30.05.03</value>
+        </code>
+      </content>
+      <content id="f421ce86-8794-4b85-8c63-e670c3f4c7db">
+        <name>СД</name>
+        <description>Сестринское дело</description>
+        <code xsi:type="core:StringValue">
+          <value>34.03.01</value>
+        </code>
+      </content>
+    </items>
+    <items id="1c85adc5-ccd1-44f8-9ca1-47c8b03b7eab">
+      <name>ИФЭУ</name>
+      <description>ИФЭУ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000007</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="88192cc5-d293-454d-bd89-8c9d23f08154">
+        <name>ИЭ</name>
+        <description>Инженерно-экономическое обеспечение технологий и бизнес-процессов водного транспорта</description>
+        <code xsi:type="core:StringValue">
+          <value>26.03.04</value>
+        </code>
+      </content>
+    </items>
+    <items id="d8bde8ea-3eb1-4625-9263-f69c27fd0ba4">
+      <name>ИЯЭиП</name>
+      <description>ИЯЭи П</description>
+      <code xsi:type="core:StringValue">
+        <value>00000008</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="5fd0ef0c-f59d-43be-88e9-cac9b4952ead">
+        <name>АСП</name>
+        <description>Атомные станции: проектирование, эксплуатация и инжиниринг</description>
+        <code xsi:type="core:StringValue">
+          <value>14.05.02</value>
+        </code>
+      </content>
+      <content id="be3ed6ee-ff07-4502-b5d0-97cf05a54369">
+        <name>ХТБак</name>
+        <description>Химическая технология</description>
+        <code xsi:type="core:StringValue">
+          <value>18.03.01</value>
+        </code>
+      </content>
+      <content id="46422aa6-0666-4ac0-951f-34ee31656fdb">
+        <name>ХТМаг</name>
+        <description>Химическая технология</description>
+        <code xsi:type="core:StringValue">
+          <value>18.04.01</value>
+        </code>
+      </content>
+      <content id="ffc01c35-a1f8-4d1c-8bdd-4c25b7805dae">
+        <name>ЭП</name>
+        <description>Экология и природопользование</description>
+        <code xsi:type="core:StringValue">
+          <value>05.03.06</value>
+        </code>
+      </content>
+      <content id="a08312ac-527d-4fd4-b196-612a26645071">
+        <name>ЭСБак</name>
+        <description>Электроэнергетика и электротехника</description>
+        <code xsi:type="core:StringValue">
+          <value>13.03.02</value>
+        </code>
+      </content>
+      <content id="f5954618-fb33-4962-812e-d4e1bdc40add">
+        <name>ЭСМаг</name>
+        <description>Электроэнергетика и электротехника</description>
+        <code xsi:type="core:StringValue">
+          <value>13.04.02</value>
+        </code>
+      </content>
+    </items>
+    <items id="f18b56cb-dd80-4336-8014-9aae6412d4fc">
+      <name>МИ</name>
+      <description>МИ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000009</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="f2f5455b-c110-4403-810e-2278451c10f5">
+      <name>ПИ</name>
+      <description>ПИ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000010</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="b9a32fda-c35b-45ce-8e59-701884b6fb30">
+        <name>АТПМаг</name>
+        <description>Автоматизация технологических процессов и производств</description>
+        <code xsi:type="core:StringValue">
+          <value>15.04.04</value>
+        </code>
+      </content>
+      <content id="dd3a6616-6378-4736-ab1f-37bc871b56a1">
+        <name>АТПБак</name>
+        <description>Автоматизация технологических процессов и производств</description>
+        <code xsi:type="core:StringValue">
+          <value>15.03.04</value>
+        </code>
+      </content>
+      <content id="35a56e1e-cadc-4e44-9d65-1e9878193d9a">
+        <name>КТПБак</name>
+        <description>Конструкторско-технологическое обеспечение машиностроительных производств</description>
+        <code xsi:type="core:StringValue">
+          <value>15.03.05</value>
+        </code>
+      </content>
+      <content id="b065a9f1-d7f3-4519-97a5-700f9b8ebc3e">
+        <name>КТПМаг</name>
+        <description>Конструкторско-технологическое обеспечение машиностроительных производств</description>
+        <code xsi:type="core:StringValue">
+          <value>15.04.05</value>
+        </code>
+      </content>
+      <content id="85161651-5313-4077-97ba-7cedf0386a67">
+        <name>ПБ</name>
+        <description>Приборостроение</description>
+        <code xsi:type="core:StringValue">
+          <value>12.03.01</value>
+        </code>
+      </content>
+      <content id="71f41179-6dfe-4e4f-8958-8edf1d62da23">
+        <name>ПС</name>
+        <description>Приборостроение</description>
+        <code xsi:type="core:StringValue">
+          <value>12.04.01</value>
+        </code>
+      </content>
+      <content id="21be55c2-15c8-4c8f-96dc-4bdc69a89712">
+        <name>ТПБак</name>
+        <description>Технология продукции и организация общественного питания</description>
+        <code xsi:type="core:StringValue">
+          <value>19.03.04</value>
+        </code>
+      </content>
+      <content id="fd1c7e4c-a4b4-4a3f-a392-bc6379a8a852">
+        <name>ТПМаг</name>
+        <description>Технология продукции и организация общественного питания</description>
+        <code xsi:type="core:StringValue">
+          <value>19.04.04</value>
+        </code>
+      </content>
+      <content id="aca263fa-6491-40e5-a4bc-59d6bcb1f43f">
+        <name>ЭТ</name>
+        <description>Эксплуатация транспортно-технологических машин и комплексов</description>
+        <code xsi:type="core:StringValue">
+          <value>23.03.03</value>
+        </code>
+      </content>
+    </items>
+    <items id="738097c1-640b-4dc4-9ec2-a0d6b60920b8">
+      <name>ФИТ</name>
+      <description>ФИТ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000011</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="3a8716cd-af2d-42a5-8356-bfb8f2269068">
+        <name>УТС</name>
+        <description>Управление в технических системах</description>
+        <code xsi:type="core:StringValue">
+          <value>27.04.04</value>
+        </code>
+      </content>
+    </items>
+    <items id="773ae4be-9676-4286-9dd4-06a28c990dae">
+      <name>ЮИ</name>
+      <description>ЮИ</description>
+      <code xsi:type="core:StringValue">
+        <value>00000012</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="1386a222-8bc2-470d-85c4-ecb85b1e5eb0">
+        <name>ЮБак</name>
+        <description>Юриспруденция</description>
+        <code xsi:type="core:StringValue">
+          <value>40.03.01</value>
+        </code>
+      </content>
+      <content id="15461402-6151-4567-94ea-949513ece842">
+        <name>ЮМаг</name>
+        <description>Юриспруденция</description>
+        <code xsi:type="core:StringValue">
+          <value>40.04.01</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.НаправленияПодготовки.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultFolderForm>Catalog.НаправленияПодготовки.Form.ФормаГруппы</defaultFolderForm>
+  <defaultListForm>Catalog.НаправленияПодготовки.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.НаправленияПодготовки.Form.ФормаВыбора</defaultChoiceForm>
+  <attributes uuid="c789f2a7-4315-47be-b15a-fd8f1857cf32">
+    <name>Профиль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Профиль</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="10cf9236-80d1-4596-aa81-3766fc491c98">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c74ef4bd-cbce-40a1-ba33-efce55e65331">
+    <name>ФормаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма группы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8dd59136-2603-4560-8bfd-fc501a40cc9f">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b491bbb1-49c2-4e60-875b-c18e7f11659a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

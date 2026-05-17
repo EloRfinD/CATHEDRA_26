@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="880949c3-817a-454b-835c-8c9217fb6010">
+  <producedTypes>
+    <selectionType typeId="90d5c3fa-b39e-4ff0-bca7-9e030a976d6e" valueTypeId="e5aedf9a-d4b7-4982-ab88-afd5ea4754d1"/>
+    <listType typeId="8d0a4a82-4576-447e-91d4-a55dd0a3d280" valueTypeId="3404faa6-3af5-4ef5-a199-9431320ee1f0"/>
+    <managerType typeId="900594a7-48c3-4adb-bb18-fd6c41ee12d9" valueTypeId="1464dbc2-dbf3-4895-80cb-45a83de26d3d"/>
+    <recordSetType typeId="8ad0074e-376b-4e27-a4dd-e9209674ab7f" valueTypeId="c235bc0b-6280-4403-86f3-4b908609ee1b"/>
+    <recordKeyType typeId="7d2c8342-1132-49be-a204-ca0dbf48c1d7" valueTypeId="c10ed126-0b73-4788-83c1-67b43b4476fe"/>
+    <recordType typeId="b60ccdf3-fedf-4e0e-8e75-48deb77e4379" valueTypeId="c73dac67-94b9-4c42-9998-bf130b2983a9"/>
+    <recordManagerType typeId="874b2b50-58a3-45a8-9d25-75248703c5d9" valueTypeId="daee246d-1d72-4148-9afb-75dbb433996b"/>
+  </producedTypes>
+  <name>ДолжностныеОклады</name>
+  <synonym>
+    <key>ru</key>
+    <value>Должностные оклады</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="786234ce-dc03-4cbd-bdf5-2afbcc312fc7">
+    <name>РазмерОклада</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер должностного оклада</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Деньги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="421694ed-044a-4999-a50d-b0313857f97a">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="df9fc444-8067-4de3-93c3-e2fa2e2a1a94">
+    <name>УченаяСтепень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ученая степень</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УченыеСтепени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

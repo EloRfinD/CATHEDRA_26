@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05d4f6a3-65bc-42e2-9b17-2a0670060ead">
+  <name>ФункцииНаКлиенте</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функции на клиенте</value>
+  </synonym>
+  <global>true</global>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>
