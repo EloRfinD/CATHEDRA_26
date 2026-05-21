@@ -34,7 +34,6 @@
     <key>ru</key>
     <value>ЦК</value>
   </shortCaption>
-  <defaultStyle>Style.ОсновнойСтиль</defaultStyle>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <splash/>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -54,7 +53,6 @@
   <subsystems>Subsystem.НастройкаИАдминистрирование</subsystems>
   <subsystems>Subsystem.ПланированиеИОрганизацияУчебногоПроцесса</subsystems>
   <subsystems>Subsystem.СлужебнаяИнформация</subsystems>
-  <styles>Style.ОсновнойСтиль</styles>
   <commonPictures>CommonPicture.КартинкаВзаиморасчеты</commonPictures>
   <commonPictures>CommonPicture.КартинкаИнформация</commonPictures>
   <commonPictures>CommonPicture.КартинкаНастройки</commonPictures>
@@ -69,6 +67,7 @@
   <constants>Constant.НазваниеПроекта</constants>
   <constants>Constant.НеСпрашиватьИзменениеJSON</constants>
   <constants>Constant.ПроректорПоОбразовательнойДеятельности</constants>
+  <constants>Constant.ПутьСохраненияФайлов</constants>
   <constants>Constant.СтоимостьЧаса</constants>
   <constants>Constant.СтоимостьЧасаГПХ</constants>
   <constants>Constant.УтвержденПриказом</constants>
@@ -81,11 +80,11 @@
   <catalogs>Catalog.Студенты</catalogs>
   <catalogs>Catalog.УчебныеПрограммы</catalogs>
   <catalogs>Catalog.ШаблоныДокументов</catalogs>
+  <documents>Document.ЗадачаСотрудника</documents>
   <documents>Document.КорректировкаНагрузки</documents>
   <documents>Document.ОрганизационныйПриказНаКурс</documents>
   <documents>Document.ПриказОЗачисленииНаКурс</documents>
   <documents>Document.Расписание</documents>
-  <documents>Document.РасчетСРуководителем</documents>
   <documents>Document.РасчетССотрудниками</documents>
   <documents>Document.ФормированиеПодгруппы</documents>
   <enums>Enum.ДниНедели</enums>
@@ -93,9 +92,12 @@
   <enums>Enum.МесяцыГода</enums>
   <enums>Enum.Отрасли</enums>
   <enums>Enum.ТипыДокументов</enums>
+  <enums>Enum.ТипыЗанятий</enums>
   <enums>Enum.УченыеСтепени</enums>
   <enums>Enum.ФормыОбучения</enums>
+  <dataProcessors>DataProcessor.Расписание</dataProcessors>
   <informationRegisters>InformationRegister.ДолжностныеОклады</informationRegisters>
+  <informationRegisters>InformationRegister.НомераПарВремяСоответсвие</informationRegisters>
   <informationRegisters>InformationRegister.Подгруппы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.НагрузкаПреподавателей</accumulationRegisters>
 </mdclass:Configuration>

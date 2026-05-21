@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f32a8b56-2c2a-4819-a34e-8d71b07882d3">
+  <producedTypes>
+    <selectionType typeId="250b3683-6ef6-43f6-ba5d-f614ec7763bc" valueTypeId="25e4c619-75b1-4767-82d2-97aefca8bcb4"/>
+    <listType typeId="18f686eb-0c1c-4838-bd17-9f384efe64a0" valueTypeId="776210ed-7550-4268-af75-d233aa182c80"/>
+    <managerType typeId="879c10d1-9098-4625-8da6-52dcc0ebeec4" valueTypeId="372d30da-f89a-4514-95f5-a14eb7f2a406"/>
+    <recordSetType typeId="7889cb5c-717b-4e6f-870c-6e448d547568" valueTypeId="54003e3c-9d12-49ed-b463-601ff0d9b104"/>
+    <recordKeyType typeId="29e0cbd6-cd8b-47f1-8f14-a8600c64df9a" valueTypeId="bdd89d31-9a66-4f53-88bd-289cad40890a"/>
+    <recordType typeId="e7b989d1-1567-4b1e-b1a7-94ac08bf09dd" valueTypeId="0518f36b-55b8-4f87-a9c3-ade112520a72"/>
+    <recordManagerType typeId="91f2b76c-d63b-44bb-8f41-a71e5d08f216" valueTypeId="e33f2d1e-d7c0-4ee8-aea3-5139e62f9107"/>
+  </producedTypes>
+  <name>НомераПарВремяСоответсвие</name>
+  <synonym>
+    <key>ru</key>
+    <value>Номера пар время соответсвие</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="414c87d5-9b96-4670-a657-e084d77c3215">
+    <name>ВремяНачала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время начала</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="24ffac8a-0ef9-4acb-9674-0fbfaffbfc58">
+    <name>ВремяОкончания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Время окончания</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Time</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="bce84d3b-a366-4629-a7fa-575e9b862775">
+    <name>НомерПары</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номер пары</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

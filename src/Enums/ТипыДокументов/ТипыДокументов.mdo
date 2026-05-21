@@ -40,11 +40,25 @@
       <value>СЗ Стимулирование</value>
     </synonym>
   </enumValues>
-  <enumValues uuid="fded7b44-0f31-4d65-a5b2-96445e5fb8d7">
-    <name>СЗСтимулированиеРуководитель</name>
+  <enumValues uuid="bbb1f32f-c442-4f7a-b716-05dfad53c72b">
+    <name>РасчетныйЛистПреподаватель</name>
     <synonym>
       <key>ru</key>
-      <value>СЗСтимулирование руководитель</value>
+      <value>Расчетный лист преподаватель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4b557bd5-ec03-4149-90aa-ec8e2d647219">
+    <name>РасчетныйЛистРуководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный лист руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d02ce902-b9e8-4d31-9675-ea9e31aa7c80">
+    <name>РасчетныйЛистТехник</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расчетный лист техник</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

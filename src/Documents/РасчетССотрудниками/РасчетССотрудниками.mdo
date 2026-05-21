@@ -160,6 +160,183 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="a44c8f76-61af-4476-b65b-f723c9f2c968">
+    <name>ДолжностьРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность руководителя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8dfef6b7-d3dc-4c13-b3d3-8523d7b49c13">
+    <name>КафедраРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кафедра руководителя</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.СтруктурныеПодразделения</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6518d01a-4e5d-4e6f-8ec0-818f3deb72ab">
+    <name>КВыплатеРуководителю</name>
+    <synonym>
+      <key>ru</key>
+      <value>К выплате руководителю</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Деньги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f68340db-4276-4c67-a172-8b674ebfde3e">
+    <name>КоличествоСтудентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество студентов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7c2c9022-068e-4c7b-b5cd-5992705dc4ce">
+    <name>Месяц</name>
+    <synonym>
+      <key>ru</key>
+      <value>Месяц</value>
+    </synonym>
+    <type>
+      <types>EnumRef.МесяцыГода</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ee5a9bc6-2e94-4cf0-bc80-3bc9736fea77">
+    <name>НормаЧасовРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма часов руководителя</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c34e97e5-3a8a-451c-8f20-820b9a1811c0">
+    <name>ОбъемПрограммы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем программы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="715c582e-1eef-420c-9f2d-056daaa2015c">
+    <name>РазмерОкладаРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Размер оклада руководителя</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Деньги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6fc1b530-8906-4d30-b7ac-22bb79ad3b2b">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Сотрудники</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="13fe96f8-af3e-447e-a552-90ee028b0cbd">
+    <name>ТарифРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тариф руководителя</value>
+    </synonym>
+    <type>
+      <types>DefinedType.Деньги</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="99fa1cf1-68df-45c2-bff6-58880fe0b565">
+    <name>СтепеньРуководителя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Степень руководителя</value>
+    </synonym>
+    <type>
+      <types>EnumRef.УченыеСтепени</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="330c9ae1-3bfe-4b40-9249-733ff8d25252">
     <name>ФормаВыбора</name>
     <synonym>
@@ -395,6 +572,20 @@
       </synonym>
       <type>
         <types>CatalogRef.Сотрудники</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="860edbdb-4116-4272-8c3c-02673fbac827">
+      <name>Тариф2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тариф2</value>
+      </synonym>
+      <type>
+        <types>DefinedType.Деньги</types>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>

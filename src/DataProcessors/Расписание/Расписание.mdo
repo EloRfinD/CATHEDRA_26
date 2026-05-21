@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="02d0ca21-a774-42ad-9f87-c2a60d105470">
+  <producedTypes>
+    <objectType typeId="09f0bd23-448f-44d2-be4f-457109e55419" valueTypeId="5af1c6a6-1bc9-4eb9-bad7-c5b5da2b520e"/>
+    <managerType typeId="9b09e28e-5a71-44ff-960e-e3ba9a5fee0e" valueTypeId="9574e058-b32c-42ff-9e0c-54dc14fa9df5"/>
+  </producedTypes>
+  <name>Расписание</name>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.Расписание.Form.ФормаДокумента</defaultForm>
+  <attributes uuid="1170c03b-814c-45e3-980e-f8c9e9b1ea70">
+    <name>Программа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.УчебныеПрограммы</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="32615856-906e-4994-aefa-857c9ea71806">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

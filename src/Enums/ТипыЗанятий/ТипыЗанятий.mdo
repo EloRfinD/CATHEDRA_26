@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="98d2e6f2-3fd1-4fe3-b0b4-37b3a194a4c6">
+  <producedTypes>
+    <refType typeId="aaedfb1a-6e8f-4798-b5c8-641164f51f32" valueTypeId="2ff8a720-c872-4cc7-9d8c-4a0afc8139d3"/>
+    <listType typeId="6dab7046-3625-4381-8f4a-d661dc6a4cd9" valueTypeId="b24948be-2afa-424b-88a9-1acf179d91f7"/>
+    <managerType typeId="e4d8232b-f9f0-4eeb-9b43-3685773b8798" valueTypeId="593a7438-ebcd-440b-b1e3-fdda85a96e52"/>
+  </producedTypes>
+  <name>ТипыЗанятий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы занятий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Enum>
