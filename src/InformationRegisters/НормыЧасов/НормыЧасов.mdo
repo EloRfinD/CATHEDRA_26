@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="03736d25-012b-4dce-8951-aa42fa4f64dd">
+  <producedTypes>
+    <selectionType typeId="e8ea52f3-6c4c-4107-9391-5f9089dd4fec" valueTypeId="350d8417-7baf-487c-823a-850d08927795"/>
+    <listType typeId="4fc1222a-f260-48a4-88e9-f160fd316fb3" valueTypeId="4d36106a-0a22-4321-9c33-c9363d8aa761"/>
+    <managerType typeId="5f04e207-2538-482f-bc16-ff164321677f" valueTypeId="e070b763-9ffd-4076-8fee-fdfe8d6e4306"/>
+    <recordSetType typeId="6581868b-ead8-4d04-a37d-15996f599b0c" valueTypeId="cd31e0d8-2c2d-408b-b63c-e30957497228"/>
+    <recordKeyType typeId="8867b3cc-6249-445a-be59-33842432aa15" valueTypeId="7653471b-6323-47e9-8d27-af8217102e9f"/>
+    <recordType typeId="d91e1095-8f8d-4eca-b75a-6aaf60a07752" valueTypeId="b3015cd5-c34c-4c3f-8387-7cac35f78c03"/>
+    <recordManagerType typeId="abbc614c-df56-40a4-9d90-3312ab76d04f" valueTypeId="57440ed1-9b0f-4783-a6e9-60fb6a15516a"/>
+  </producedTypes>
+  <name>НормыЧасов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нормы часов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="68eb811a-c19c-4661-b39e-d440b6b59792">
+    <name>Норма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Норма</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="1310438a-4e00-4012-90c8-e69debb4e380">
+    <name>Должность</name>
+    <synonym>
+      <key>ru</key>
+      <value>Должность</value>
+    </synonym>
+    <type>
+      <types>EnumRef.Должности</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

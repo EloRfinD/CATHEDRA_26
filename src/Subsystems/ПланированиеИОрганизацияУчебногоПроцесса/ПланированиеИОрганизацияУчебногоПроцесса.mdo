@@ -16,6 +16,5 @@
   <content>Catalog.Студенты</content>
   <content>Document.ФормированиеПодгруппы</content>
   <content>InformationRegister.Подгруппы</content>
-  <content>Document.Расписание</content>
   <content>Document.КорректировкаНагрузки</content>
 </mdclass:Subsystem>

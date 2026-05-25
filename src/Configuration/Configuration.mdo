@@ -56,6 +56,9 @@
   <commonPictures>CommonPicture.КартинкаВзаиморасчеты</commonPictures>
   <commonPictures>CommonPicture.КартинкаИнформация</commonPictures>
   <commonPictures>CommonPicture.КартинкаНастройки</commonPictures>
+  <commonPictures>CommonPicture.картинкаПросмотрДень</commonPictures>
+  <commonPictures>CommonPicture.КартинкаПросмотрМесяц</commonPictures>
+  <commonPictures>CommonPicture.КартинкаПросмотрНеделя</commonPictures>
   <commonPictures>CommonPicture.КартинкаЧасы</commonPictures>
   <commonModules>CommonModule.ПолучениеШаблонаВызовСервера</commonModules>
   <commonModules>CommonModule.ФункцииЗаполнениеШаблонаГлобальный</commonModules>
@@ -84,7 +87,6 @@
   <documents>Document.КорректировкаНагрузки</documents>
   <documents>Document.ОрганизационныйПриказНаКурс</documents>
   <documents>Document.ПриказОЗачисленииНаКурс</documents>
-  <documents>Document.Расписание</documents>
   <documents>Document.РасчетССотрудниками</documents>
   <documents>Document.ФормированиеПодгруппы</documents>
   <enums>Enum.ДниНедели</enums>
@@ -98,6 +100,7 @@
   <dataProcessors>DataProcessor.Расписание</dataProcessors>
   <informationRegisters>InformationRegister.ДолжностныеОклады</informationRegisters>
   <informationRegisters>InformationRegister.НомераПарВремяСоответсвие</informationRegisters>
+  <informationRegisters>InformationRegister.НормыЧасов</informationRegisters>
   <informationRegisters>InformationRegister.Подгруппы</informationRegisters>
   <accumulationRegisters>AccumulationRegister.НагрузкаПреподавателей</accumulationRegisters>
 </mdclass:Configuration>
