@@ -17,4 +17,5 @@
   <content>Document.ФормированиеПодгруппы</content>
   <content>InformationRegister.Подгруппы</content>
   <content>Document.КорректировкаНагрузки</content>
+  <content>DataProcessor.Расписание</content>
 </mdclass:Subsystem>
